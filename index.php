@@ -38,9 +38,9 @@
 
     <?php
     
-        $name = $_POST['t1']
-        $age = $_POST['t2']
-        $books = $_POST['t3'] 
+        $name = $_POST['t1'];
+        $age = $_POST['t2'];
+        $books = $_POST['t3'];
 
         if ($name && $age && $books) {
             echo "<p>THANK YOU FOR PARTICIPATING IN THIS SOCIAL EVENT!</p>";
@@ -49,7 +49,7 @@
         } else {
             echo "<p style='color: red;'>Please fill in all the fields to submit your recommendation.</p>";
         }
-    }
+    
     ?>
 
     <h2>SOME OF MY WORKS!</h2><br>
